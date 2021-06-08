@@ -6,7 +6,15 @@ Examples: the first values of the Fibonacci sequence are 0, 1, 1, 2, 3, 5, 8, 13
 
 # About the solution
 
-The first approach was just execute the fibbonacci as it is.
+The first approach was just execute the fibonacci as it is in an Express Server.
+But as we can see the results depends on previous calculations, so the second version store the values in a memory dictionary.
+The API is only listening GET requets on port `8080` .
+
+## Improvements
+
+- The API require more validations as the value maximun to calculate.
+- Handle exceptions with correct error messages.
+- If this api will be deployed in a stateless environment, for example cloud run from Google Cloud Platform, we need to separate the in memory dictionary to maybe a database in this way the API can scale without issues.
 
 # Run
 
