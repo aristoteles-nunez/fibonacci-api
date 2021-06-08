@@ -1,0 +1,22 @@
+{
+  "name": "fibonacci-api",
+  "version": "1.0.0",
+  "description": "Scenario: There is a need for a Rest (or Rest-like) API that can receive an index \"n\" and returns the Fibonacci value that corresponds to the given index, and you have been tasked with implementing the first version of this API.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aristoteles-nunez/fibonacci-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aristoteles-nunez/fibonacci-api/issues"
+  },
+  "homepage": "https://github.com/aristoteles-nunez/fibonacci-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
